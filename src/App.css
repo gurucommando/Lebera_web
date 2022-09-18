@@ -1,0 +1,380 @@
+/* ======================================== Navbar ============================================== */
+body{
+  background-color: #000 !important
+  ;
+}
+
+
+.navbar img{
+  width: 42%;
+  height: 42%;
+}
+.nav-head{
+  color: red;
+  font-weight: bold;
+  /* width: 50%; */
+
+}
+.nav-link{
+  width:150px;
+  padding: 2%;
+  margin: 1%;
+  font-size: 15px;
+  font-weight:700;
+  text-align: center;
+  
+}
+.nav-link:hover{
+  background-color:#35363A;
+  border-radius: 10px;
+}
+.nav-ul li{
+  /* margin-left: 12%; */
+  padding: 0;
+}
+.navbar button{
+  background-color:#EC1975;
+  width: 190px;
+  height:55px;
+  font-size: 17px;
+ border-radius: 20px;
+ color: white;
+ font-weight: bold;
+ padding: 5px;
+}
+/* ====================================== header-page ==============================================================++ */
+.main{
+  padding:0% 10% 0 10% ;
+}
+.header-text{
+  justify-content: center;
+  text-align: center;
+ padding: 5% 0% 0 0% ;
+}
+.header-text h1{
+  font-weight:700;
+  color: white;
+}
+.header-text h3{
+  color: #FF9800;
+  margin-top: 5%;
+}
+/* ================================================= gift ====================================== */
+.gift{
+
+}
+.col-card{
+  border-radius:10px;
+  background-color: #080B11;
+  max-height: fit-content;
+  padding: 1%;
+  margin: 0;
+  /* background: transparent; */
+}
+.col-card h4{
+  /* padding: 2%; */
+  margin: 0;
+  font-size: 135%;
+  top: -20%;
+}
+.col-card h5{
+  color: green !important;
+}
+.card-end-img{
+  width: 30%;
+  height: 30%;
+
+}
+.card-end-btn1{
+ background-color: #EC1975;
+ font-weight: bold;
+ font-size:110%;
+ padding: 1.1%;
+ border-radius: 10px;
+}
+.card-end-btn2{
+  background-color: #EC1975;
+  font-weight: bold;
+  font-size:110%;
+  padding: 1.1%;
+ border-radius: 10px;
+}
+.circle{
+  width: 17%;
+  height: 21%;
+  color: aliceblue;
+  /* background-color:red; */
+  border-radius: 50%;
+  text-align: center;
+  border: 10px solid #FF9800;
+}
+.circle div{
+  position: relative;
+/* font-weight: bold; */
+font-size: large;
+font-size: 30px;
+}
+.text-countdown{
+  justify-content: center;
+  text-align: center;
+ padding: 5% 0% 0 0% ;
+ color: aliceblue;
+}
+.text-countdown h3{
+  font-size: 135%;
+}
+.digifinex{
+  justify-content: center;
+  text-align:center;
+}
+.digifinex h3{
+  color: white;
+  font-size: 320%;
+}
+/* ====================================================== THOREUM ================================== */
+.thoreum-text{
+  justify-content: center;
+  text-align: center;
+}
+.thoreum-btn{
+  text-align: center;
+}
+.thoreum-btn button{
+  background-color:#167B61;
+  padding: 2%;
+  color: white;
+  border: 2px solid palevioletred;
+  border-radius: 10px;
+}
+.thoreum-btn button:hover{
+  transform: scale(1.1);
+  background-color:#28E0B2;
+  border: none;
+  /* justify-content: center;
+  align-items-center; */
+}
+
+/* =========================== Table ========================== */
+.table-container{
+  background-color: #0A071D;
+  padding-top: 8%;
+  /* overflow: scroll; */
+ 
+}
+.table-container h1{
+  font-size: 300%;
+}
+.main-table{
+  padding:2% 15% 5% 15%;
+  font-size: 120%;
+}
+.main-table td{
+  
+}
+thead th{
+  /* border-bottom: none; */
+  /* border-top:none ; */
+  
+}
+tbody{
+  border-top: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+
+}
+tbody th{
+  /* border-top: 2px solid red; */
+  font-size: 120%;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom:1px solid black;
+}
+tbody td {
+  border-right:1px solid white;
+  font-size: 90%;
+}
+tbody tr{
+  /* border-top: 2px solid red; */
+}
+tbody tr:hover{
+  background-color:#212529 ;
+}
+
+/* =================================== main-earth ============================================ */
+.main-earth{
+  padding: 5% 14% 5% 14%;
+  background-color: #140E3A;
+}
+.main-earth p{
+  color: #FF9800;
+}
+.main-earth .earth{
+  position: relative;
+  margin-top:15%;
+  left: 7%;
+  animation: earth 10s infinite;
+  width: 50%;
+  height: 60%;
+  
+
+}
+@keyframes earth {
+  100%{transform: rotate(360deg);}
+}
+
+/* ================================================ How it work ======================= */
+.main-work{
+/* padding: 5% 15% 0 15%; */
+}
+.work-text{
+
+  padding: 5% 20% 0 20%;
+}
+.work-text h1{
+  font-size: 380%;
+  /* padding: 0 1% 0 1%; */
+}
+.main-reduction{
+  text-align: center;
+  /* padding: 5% 10% 0% 10%; */
+  background-color: #080B11;
+}
+.reduction-text{
+  padding: 5% 8% 2% 8%;
+  /* background-color: #080B11; */
+  /* border-radius: 10px; */
+  /* width: 90%; */
+}
+
+/* ======================================== choose ============================================ */
+.main-choose{
+  padding:5% 10% 5% 10%;
+  background-color: #140E3A;
+}
+.choose-box:hover{
+  background-color:#212529;
+  border-radius: 13px;
+}
+/* ======================================== companies ==================================== */
+.main-compnies{
+  background-color: black;
+  justify-content: flex-end;
+  /* margin: 0 0 10% 0; */
+
+}
+.main-compnies img{
+  margin-left: 30%;
+  padding: 0 0 10% 0;
+}
+/* ===================================== innovation ========================================== */
+.main-innovation{
+  color: white;
+  /* background-color:red; */
+  /* padding:50% 15%; */
+}
+.innovation-box{
+  background-color:#140E3A;
+  /* position: absolute; */
+  padding: 10% 15% 0 15%;
+  /* background-color:red; */
+}
+.innovation-box h1{
+  padding: 0 10% 0 0;
+  font-size: 300%;
+}
+.read-more{
+  color:#FF9800;
+  font-size: 130%;
+}
+.bounce{
+  animation:5s bounce infinite
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+/* ================================================== frequently ================================================ */
+
+.main-frequently{
+  background-color:#140E3A;
+  color: white;
+}
+.frequently-box{
+  
+  padding:5% 10% 10%;
+  /* background-color: #EC1975; */
+}
+.frequently-box h1{
+  font-size: 350%;
+}
+.adn-list{
+  /* background-color:#140E3A ; */
+}
+.accordion-item button{
+  background: #140e3a !important;
+  
+}
+.accordion-item button :hover{
+  background-color:#212529 !important
+  
+}
+.freq-img{
+  margin-left: 13%;
+  animation: move 20s infinite;
+}
+@keyframes move{
+  100%{transform: rotate(360deg);}
+}
+
+/* =================================== main-footer ==================================== */
+.main-footer{
+  color: white;
+  background-color: #212529;
+  padding: 0 15% 5% 15%;
+  list-style: n;
+  
+}
+.main-footer h3{
+  color: #FF9800;
+}
+li{
+  list-style: none;
+}
+
+
+/* ========================================================= media-query ======================= */
+
+
+@media(max-width: 500px){
+  .table-container{
+    overflow: scroll;
+  }
+  .table-container h1{
+    font-size: 200%;
+    /* display: inline-block; */
+    
+  }
+  .main-table{
+    padding: 5%;
+    font-size: 180%;
+  }
+  .table td{
+    width: 100%;
+    font-size:100%;
+   
+  }
+  .earth{
+    display: none;
+  }
+  .work-text{
+
+    padding: 5% 12% 0 12%;
+  }
+  .freq-img{
+    display: none;
+  }
+  .bounce{
+    display: none;
+  }
+}
+
